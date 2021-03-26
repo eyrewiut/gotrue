@@ -66,7 +66,7 @@ DATABASE_URL=root@localhost/gotrue
 
 `DB_DRIVER` - `string` **required**
 
-Chooses what dialect of database you want. Must be `mysql`.
+Chooses what dialect of database you want. Currently only `mysql` and `postgres` are supported.
 
 `DATABASE_URL` (no prefix) / `DB_DATABASE_URL` - `string` **required**
 
